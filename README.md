@@ -122,7 +122,7 @@ _classifier.pkl_ already exists but the above command will still run and replace
 
 _**Screenshot 4**_
 
-![train_classifier_1](imgaes/ML.png)
+![train_classifier_1](images/ML.png)
 
 ### 3.3. Starting the web app
 
