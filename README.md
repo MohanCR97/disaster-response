@@ -70,7 +70,7 @@ File _models/train_classifier.py_ contains machine learning pipeline that:
 
 <a id='eg'></a>
 
-Running [this command](#com) **from app directory** will start the web app where users can enter their query, i.e., a request message sent during a natural disaster, e.g. _"Please, we need tents and water. We are in Silo, Thank you!"_.
+Running [this command](#com) **from app directory** will start the web app where users can enter their query, i.e., a request message sent during a natural disaster, e.g. _"need water and current"_.
 
 **_Screenshot 1_**
 
@@ -80,7 +80,7 @@ What the app will do is that it will classify the text message into categories s
 
 **_Screenshot 2_**
 
-![results](img/res.jpg)
+![results](images/result.png)
 
 <a id='run'></a>
 
@@ -104,7 +104,7 @@ _DisasterResponse.db_ already exists in _data_ folder but the above command will
 
 **_Screenshot 3_**
 
-![process_data](img/process_data.jpg)
+![process_data](images/ETL.png)
 
 <a id='training'></a>
 
@@ -122,19 +122,7 @@ _classifier.pkl_ already exists but the above command will still run and replace
 
 _**Screenshot 4**_
 
-![train_classifier_1](img/train_classifier_1.jpg)
-
-It took me around **4 minutes** to train the classifier with grid search.
-
-When the models is saved, it will look something like this.
-
-<a id='acc'></a>
-
-**_Screenshot 5_**
-
-![train_classifier_2.jpg](img/train_classifier_2.jpg)
-
-<a id='starting'></a>
+![train_classifier_1](imgages/ML.png)
 
 ### 3.3. Starting the web app
 
@@ -152,7 +140,7 @@ This will start the web app and will direct you to a URL where you can enter mes
 
 **_Screenshot 6_**
 
-![web_app](img/web_app.jpg)
+![web_app](images/run.png)
 
 <a id='conclusion'></a>
 
@@ -162,11 +150,11 @@ Some information about training data set as seen on the main page of the web app
 
 **_Screenshot 7_**
 
-![genre](img/genre.jpg)
+![genre](images/message.png)
 
 **_Screenshot 8_**
 
-![dist](img/dist.jpg)
+![dist](images/newplot.png)
 
 As we can see the data is highly imbalanced. Though the accuracy metric is [high](#acc) (you will see the exact value after the model is trained by grid search, it is ~0.94), it has a poor value for recall (~0.6). So, take appropriate measures when using this model for decision-making process at a larger scale or in a production environment.
 
