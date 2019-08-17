@@ -156,7 +156,7 @@ Some information about training data set as seen on the main page of the web app
 
 ![dist](images/newplot.png)
 
-As we can see the data is highly imbalanced. Though the accuracy metric is [high](#acc) (you will see the exact value after the model is trained by grid search, it is ~0.94), it has a poor value for recall (~0.6). So, take appropriate measures when using this model for decision-making process at a larger scale or in a production environment.
+As we can see the data is highly imbalanced. 
 
 <a id='files'></a>
 
