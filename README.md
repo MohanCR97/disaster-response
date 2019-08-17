@@ -167,7 +167,7 @@ As we can see the data is highly imbalanced. Though the accuracy metric is [high
 ├── app
 │   ├── run.py------------------------# FLASK FILE THAT RUNS APP
 │   ├── static
-│   │   └── favicon.ico---------------# FAVICON FOR THE WEB APP
+│   │  
 │   └── templates
 │       ├── go.html-------------------# CLASSIFICATION RESULT PAGE OF WEB APP
 │       └── master.html---------------# MAIN PAGE OF WEB APP
@@ -176,9 +176,12 @@ As we can see the data is highly imbalanced. Though the accuracy metric is [high
 │   ├── disaster_categories.csv-------# DATA TO PROCESS
 │   ├── disaster_messages.csv---------# DATA TO PROCESS
 │   └── process_data.py---------------# PERFORMS ETL PROCESS
-├── img-------------------------------# PLOTS FOR USE IN README AND THE WEB APP
+├── images-------------------------------# PLOTS FOR USE IN README AND THE WEB APP
 ├── models
 │   └── train_classifier.py-----------# PERFORMS CLASSIFICATION TASK
+    └── classifier.pkl-----------# SAVED MODEL
+
+
 
 </pre>
 
