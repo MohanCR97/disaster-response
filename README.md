@@ -138,7 +138,7 @@ python run.py
 
 This will start the web app and will direct you to a URL where you can enter messages and get classification results for it.
 
-**_Screenshot 6_**
+**_Screenshot 5_**
 
 ![web_app](images/run.png)
 
@@ -148,11 +148,11 @@ This will start the web app and will direct you to a URL where you can enter mes
 
 Some information about training data set as seen on the main page of the web app.
 
-**_Screenshot 7_**
+**_Screenshot 6_**
 
 ![genre](images/message.png)
 
-**_Screenshot 8_**
+**_Screenshot 7_**
 
 ![dist](images/newplot.png)
 
@@ -180,8 +180,7 @@ As we can see the data is highly imbalanced. Though the accuracy metric is [high
 ├── models
 │   └── train_classifier.py-----------# PERFORMS CLASSIFICATION TASK
     └── classifier.pkl-----------# SAVED MODEL
-
-
+- README.md
 
 </pre>
 
@@ -196,6 +195,5 @@ The standard libraries which are not mentioned in _requirements.txt_ are _collec
 
 ## 7. Credits and Acknowledgements
 
-Thanks <a href="https://www.udacity.com" target="_blank">Udacity</a> for letting me use their logo as favicon for this web app.
 
 Another <a href="https://medium.com/udacity/three-awesome-projects-from-udacitys-data-scientist-program-609ff0949bed" target="_blank">blog post</a> was a great motivation to improve my documentation. This post discusses some of the cool projects from <a href="https://in.udacity.com/course/data-scientist-nanodegree--nd025" target="_blank">Data Scientist Nanodegree</a> students. This really shows how far we can go if we apply the concepts learned beyond the classroom content to build something that inspire others.
