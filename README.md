@@ -80,7 +80,7 @@ What the app will do is that it will classify the text message into categories s
 
 **_Screenshot 2_**
 
-![result](images/result.png)
+![result](images/Result.png)
 
 <a id='run'></a>
 
