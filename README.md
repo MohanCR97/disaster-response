@@ -80,7 +80,7 @@ What the app will do is that it will classify the text message into categories s
 
 **_Screenshot 2_**
 
-![results](images/result.png)
+![result](images/result.png)
 
 <a id='run'></a>
 
@@ -104,7 +104,7 @@ _DisasterResponse.db_ already exists in _data_ folder but the above command will
 
 **_Screenshot 3_**
 
-![process_data](images/ETL.png)
+![ETL](images/ETL.png)
 
 <a id='training'></a>
 
